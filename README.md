@@ -30,7 +30,7 @@ Or install it yourself as:
 
     $ gem install rlstevenson-jekyll-theme
 
-The Ruby Gem page is here: [rlstevenson-jekyll-theme](https://rubygems.org/gems/rlstevenson-for-jekyll)
+The Ruby Gem page is here: [rlstevenson-jekyll-theme](https://rubygems.org/gems/rlstevenson-jekyll-theme)
 
 ## Usage & Config Options
 
