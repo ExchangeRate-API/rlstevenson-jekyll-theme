@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Example Post for RLStevenson
+title: RLStevenson Jekyll Theme
 author: ExchangeRate-API
 date: 2016-09-07
 ---

@@ -10,7 +10,7 @@ url:		/
 baseurl:	/
 paginate:	5
 version:	0.1.0
-colorscheme:	scheme-lightbrown
+colorscheme:	scheme-gulfracing
 
 ga:		'UA-123-456'
 piwikSiteID:	''

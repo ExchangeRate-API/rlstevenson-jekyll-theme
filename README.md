@@ -6,7 +6,7 @@ The theme was built from an empty Bootstrap 3 template with the goal of easy mod
 
 Pull requests are welcome.
 
-![RLStevenson Screenshot](http://i.imgur.com/3JCqImV.png)
+![RLStevenson Screenshot](http://i.imgur.com/yLkV7Ws.png)
 
 ## Installation
 
@@ -60,7 +60,7 @@ Simply set the
 
 In keeping with our attempt to replicate the original Hyde in Bootstrap we've included some colour scheme options. These are not the same as in the original, but we used palettes from the same [Base16](https://github.com/chriskempson/base16) project.
 
-![RLStevenson in Gulf Racing](http://i.imgur.com/WQLhD4x.png)
+![RLStevenson in Gulf Racing](http://i.imgur.com/ktfByqp.png)
 
 Using a theme is as simple as changing the `colorscheme` param in your `_config.yml`.
 
