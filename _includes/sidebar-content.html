@@ -1,14 +1,14 @@
 
 	<div class="sidebar-content">
 
-		<a href="{{ site.baseurl }}"><h1>{{ site.title }}</h1></a>
+		<a href="{% if site.baseurl != '' %}{{ site.baseurl }}/{% else %}/{% endif %}"><h1>{{ site.title }}</h1></a>
 		<p>{{ site.description }}</p>
 
-		{{ if .Site.Params.sidebarFreeText }}
+		{% if site.freetext != '' %}
 		<div class="sidebar-freetext">
 			<p>{{ site.freetext }}</p>
 		</div>
-		{{ end }}
+		{% endif %}
 
 		<ul class="sidebar-menus">
 			{% for item in site.data.menu %}

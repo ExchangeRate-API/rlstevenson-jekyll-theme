@@ -3,12 +3,14 @@
 # RLStevenson Theme Options
 ####
 
+# For baseurl:
+# Use '' for / or '/your-dir' for another directory
+
 title:		RLStevenson
 description:	'A Bootstrap based clone of the Hyde theme by mdo.'
 freetext:	'Released under an MIT license - feel free to make pull requests.'
-url:		/
-baseurl:	/
-paginate:	5
+baseurl:	'/rlstevenson'
+paginate:	3
 version:	0.1.0
 colorscheme:	scheme-gulfracing
 
@@ -25,4 +27,4 @@ github:
 
 gems:		[jekyll-paginate]
 
-exclude:	['README.md', 'Gemfile.lock', 'Gemfile', 'rlstevenson.gemspec']
+exclude:	['README.md', 'Gemfile.lock', 'Gemfile', '*.gemspec', '*.gem']
