@@ -21,8 +21,8 @@ author:
  name:		'ExchangeRate-API'
 
 github:
- repo:		https://github.com/ExchangeRate-API/rlstevenson
+ repo:		https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
 
 gems:		[jekyll-paginate]
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'rlstevenson.gemspec']
+exclude:	['README.md', 'Gemfile.lock', 'Gemfile', 'rlstevenson.gemspec']

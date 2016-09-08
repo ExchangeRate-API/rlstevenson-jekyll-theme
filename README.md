@@ -54,7 +54,9 @@ Take a look at `_data/menu.yml` file to see how you can add menu items to your s
 
 ### Pagination
 
-Simply set the 
+Simply set the `paginate:` option in your `_config.yml` file to the number of articles you want to show per page. You may need to use the `bundle install` command with Jekyll 3 to make sure you have the `jekyll-paginate` gem.
+
+Alternatively you can disable pagination by not including the `paginate:` option.
 
 ### Color Schemes
 
@@ -120,10 +122,9 @@ Here is a full example `_config.yml`:
 	 url:		https://www.exchangerate-api.com
 	 name:		'ExchangeRate-API'
 
-	github:
-	 repo:		https://github.com/ExchangeRate-API/rlstevenson-for-Jekyll
-
 	gems:		[jekyll-paginate]
+
+	exclude:	['README.md', 'Gemfile.lock', 'Gemfile', 'rlstevenson.gemspec']
 
 
 ## Author
