@@ -9,7 +9,7 @@
 title:		RLStevenson
 description:	'A Bootstrap based clone of the Hyde theme by mdo.'
 freetext:	'Released under an MIT license - feel free to make pull requests.'
-baseurl:	'/rlstevenson'
+baseurl:	'/'
 paginate:	3
 version:	0.1.0
 colorscheme:	scheme-gulfracing
